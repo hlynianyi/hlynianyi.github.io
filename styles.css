@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.5;
+  background: #ffffff;
+  padding: 20px;
+  height: 100dvh;
+  background-color: #eeedeb;
+  color: black;
+}
+
+@media (orientation: landscape) {
+  strong {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .italic {
+    font-style: italic;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 48px;
+  }
+  header,
+  .skills,
+  .education,
+  .experience,
+  .projects,
+  .about {
+    padding: 0 8px;
+    margin-bottom: 10px;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  header h1 {
+    font-size: 34px;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  header p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .skills ul,
+  .education ul,
+  .experience ul,
+  .about ul {
+    font-size: 16px;
+    padding-left: 16px;
+    list-style-type: none;
+  }
+  .skills li,
+  .education li,
+  .experience li,
+  .about li {
+    margin-bottom: 1px;
+    font-weight: 300;
+  }
+  .projects ul {
+    font-size: 16px;
+    padding-left: 16px;
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 6px;
+  }
+  .projects li {
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 12px;
+    width: 95%;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: 300;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 6px;
+  }
+  h4 {
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 16px;
+  }
+  h5 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 6px;
+    padding-left: 16px;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 16px;
+  }
+  .education__details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 16px;
+  }
+  .experience__details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .projects__details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nowrap {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .about p {
+    padding-left: 0;
+    padding-bottom: 24px;
+  }
+}
+
+@media (orientation: portrait) {
+  strong {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .italic {
+    font-style: italic;
+  }
+  .container {
+    margin: 0 auto;
+  }
+  header,
+  .skills,
+  .education,
+  .experience,
+  .projects,
+  .about {
+    padding: 0 8px;
+    margin-bottom: 10px;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  header h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  header p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .skills ul,
+  .education ul,
+  .experience ul,
+  .about ul {
+    font-size: 14px;
+    padding-left: 16px;
+    list-style-type: none;
+  }
+  .skills li,
+  .education li,
+  .experience li,
+  .about li {
+    margin-bottom: 1px;
+    font-weight: 300;
+  }
+  .projects ul {
+    font-size: 14px;
+    padding-left: 16px;
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 6px;
+  }
+  .projects li {
+    font-size: 14px;
+    font-weight: 300;
+    /* margin-bottom: 4px; */
+    padding-left: 12px;
+    width: 95%;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: 300;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 6px;
+  }
+  h4 {
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 16px;
+  }
+  h5 {
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 6px;
+    padding-left: 16px;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 16px;
+  }
+  .education__details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 16px;
+  }
+  .experience__details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .projects__details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nowrap {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .about p {
+    padding-left: 0;
+    padding-bottom: 24px;
+  }
+}
